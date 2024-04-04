@@ -8,8 +8,8 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Space Dodge   <Update : 2>')
 
 
-# upload image in this section :
-BG = pygame.transform.scale(pygame.image.load('F:\Python\khodam ;)\Space Dodge/bg.jpg'), (WIDTH, HEIGHT))
+# upload the location (Space Dodge.jpg) in this section ... :
+BG = pygame.transform.scale(pygame.image.load('...\Space Dodge/bg.jpg'), (WIDTH, HEIGHT))
 
 
 PLAYER_WIDTH = 40
@@ -86,7 +86,7 @@ def main():
                 break
 
         if hit:
-            lost_text = FONT.render('You Lost!! noob:)', 1, 'white')
+            lost_text = FONT.render('You Lost!! try again', 1, 'white')
             WIN.blit(lost_text, (WIDTH/2 - lost_text.get_width()/2, HEIGHT/2 - lost_text.get_height()/2))    
             pygame.display.update()
             pygame.time.delay(4000)
