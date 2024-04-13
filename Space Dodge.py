@@ -9,7 +9,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Space Dodge   <Update : 2>')
 
 # upload the location (Space Dodge.jpg) in this section ... :
-BG = pygame.transform.scale(pygame.image.load('D:\Sobhan Vaziri\Clone\Space Dodge/bg.jpg'), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('...\Space Dodge/bg.jpg'), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
